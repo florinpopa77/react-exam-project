@@ -1,0 +1,12 @@
+h2 {
+    font-style: italic;
+}
+
+.empl-add-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.empl-add-form input {
+    max-width: 75%;
+}
