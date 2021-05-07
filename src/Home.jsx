@@ -75,7 +75,7 @@ class Home extends React.Component{
                 className="empl-add-form container"
                 onSubmit={(event) => this.submitAddForm(event, nume, prenume, meserie, salariu, dataAngajare)}
             >
-                <h2>Adauga angajat:</h2>
+                <h2 className="my-4">Adauga angajat:</h2>
                 <div className="form-group row">
                     <label htmlFor="nume" className="col-sm-1 col-form-label">Nume</label>
                     <div className="col-sm-10">
